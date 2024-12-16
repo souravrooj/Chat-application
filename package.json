@@ -1,7 +1,7 @@
 {
   "name": "chat-app-backend",
   "version": "1.0.0",
-  "description": "This is the chat application backend. Use tech: TypeScript, NodeJS, ExpressJS, PostgreSQL, JEST",
+  "description": "This is the chat application backend. Use tech: TypeScript, NodeJS, ExpressJS, MongoDB, JEST",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -9,7 +9,6 @@
     "build": "tsc",
     "test": "jest"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/souravrooj/Chat-application.git"
@@ -20,7 +19,7 @@
     "typescript",
     "nodejs",
     "express",
-    "postgresql",
+    "mongoose",
     "jest",
     "chat-application"
   ],
@@ -34,8 +33,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "pg": "^8.13.1",
-    "pg-promise": "^11.10.2"
+    "mongoose": "^8.9.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
